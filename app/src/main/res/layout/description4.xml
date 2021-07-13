@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Flashcard"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/langifybackground"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/description4"
+        android:layout_width="298dp"
+        android:layout_height="249dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.157"
+        android:text="Small"/>
+
+    <Button
+        android:id="@+id/descriptionflip4"
+        android:layout_width="117dp"
+        android:layout_height="66dp"
+        android:layout_marginBottom="76dp"
+        android:background="#FF5722"
+        android:onClick="click"
+        android:text="Flip"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toTopOf="@+id/descriptionNext4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description4"
+        app:layout_constraintVertical_bias="0.682" />
+
+    <Button
+        android:id="@+id/descriptionNext4"
+        android:layout_width="205dp"
+        android:layout_height="103dp"
+        android:layout_marginBottom="76dp"
+        android:background="#E1724F"
+        android:onClick="click"
+        android:text="Next"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/descriptionsay4"
+        android:layout_width="114dp"
+        android:layout_height="67dp"
+        android:background="#E1724F"
+        app:backgroundTint="@null"
+        android:onClick="click"
+        android:text="Say"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/descriptionflip4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.576" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
