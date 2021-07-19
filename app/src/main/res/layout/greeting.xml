@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/langifybackground"
+    android:onClick="Good_Morning"
     tools:context=".MainActivity">
 
     <TextView
@@ -14,6 +15,7 @@
         android:layout_height="249dp"
         android:background="@color/white"
         android:gravity="center"
+        android:text="Good Morning"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="24sp"
@@ -22,8 +24,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.157"
-        android:text="Good Morning"/>
+        app:layout_constraintVertical_bias="0.157" />
 
     <Button
         android:id="@+id/greetingflip"
@@ -59,9 +60,9 @@
         android:layout_width="114dp"
         android:layout_height="67dp"
         android:background="#E1724F"
-        app:backgroundTint="@null"
-        android:onClick="click"
+        android:onClick="Good_Morning"
         android:text="Say"
+        app:backgroundTint="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/greetingflip"

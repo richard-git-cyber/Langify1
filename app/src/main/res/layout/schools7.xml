@@ -58,6 +58,7 @@
         android:id="@+id/schoolssay7"
         android:layout_width="114dp"
         android:layout_height="67dp"
+        android:onClick="Musica"
         android:text="Say"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

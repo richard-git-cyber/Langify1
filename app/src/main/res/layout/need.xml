@@ -58,6 +58,7 @@
         android:id="@+id/needsay"
         android:layout_width="114dp"
         android:layout_height="67dp"
+        android:onClick="Need"
         android:text="Say"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

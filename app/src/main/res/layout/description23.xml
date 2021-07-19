@@ -23,7 +23,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.157"
-        android:text="Bold"/>
+        android:text="Bald"/>
 
     <Button
         android:id="@+id/descriptionflip23"
@@ -59,9 +59,9 @@
         android:layout_width="114dp"
         android:layout_height="67dp"
         android:background="#E1724F"
-        app:backgroundTint="@null"
-        android:onClick="click"
+        android:onClick="Bald"
         android:text="Say"
+        app:backgroundTint="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/descriptionflip23"
